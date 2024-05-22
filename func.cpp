@@ -8,7 +8,6 @@ void dijkstra(Graph graph, int starting_vertex) {
     if (checking(graph)) {
         std::cout << "В графе обнаружены ребра с отрицательным весом\n";
         return;
-        std::cout << "Hi";
     }
     int n = graph.vertexes; // Количество вершин в графе
 
